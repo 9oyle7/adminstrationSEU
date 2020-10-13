@@ -1,0 +1,32 @@
+.content-area {
+    width: calc(100% - 270px);
+    min-height: 100vh;
+    transition: .3s;
+    background-color: #f1f1f1;
+    color: #222;
+    will-change: width;
+    float: left;
+  }
+  .content-area.no-sidebar {
+    width: calc(100% - 0px);
+  }
+  .content-area .header {
+    background-color: #ffffff;
+    padding: 7px 20px;
+  }
+  .content-area .header .toggle-sidebar {
+    cursor: pointer;
+    width: 20px;
+  }
+  .content-area .header img {
+    width: 50px;
+  }
+  .content-area .header a {
+    color:#1c2172;
+    text-decoration: none;
+    text-align: center;
+  }
+  .content-area .switch-languge {
+    float: left;
+    top: 5px;
+  }

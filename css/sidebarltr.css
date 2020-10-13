@@ -1,0 +1,10 @@
+.sidebar {
+    left: 0;
+  }
+  .sidebar.no-sidebar {
+    left: -250px;
+    right: 0;
+  }
+  .sidebar .sidebar-content i {
+    margin-right: 5px;
+  }

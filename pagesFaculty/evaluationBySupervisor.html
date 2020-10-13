@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="../css/font-awesome.min.css" rel="stylesheet" >
+    <link href="../css/bootstrap.css" rel="stylesheet" >
+    <link href="../css/font.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/sidebar.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <title>تقييم الدورة التدريبية بواسطة المنسق</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-logo">
+            <a href="../homePage.html">
+              <img src="../img/logo-ar.png" alt="">
+            </a>
+          </div>
+          <div class="sidebar-content">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="courses.html">
+                    <i class="fa fa-book"></i>
+                    <span>جميع الدورات</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="allCourses.html">
+                    <i class="fa fa-book"></i>
+                    <span>الدورات الحالية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="addGroups.html">
+                    <i class="fa fa-book"></i>
+                    <span>اضافة مجموعة</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="groups.html">
+                    <i class="fa fa-book"></i>
+                    <span>المجموعات</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="courseRequest.html">
+                    <i class="fa fa-plus"></i>
+                    <span>طلب دورة فردية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="courseRequestSingle.html">
+                    <i class="fa fa-plus"></i>
+                    <span>طلبات الدورات الفردية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="newCourseFaculty.html">
+                    <i class="fa fa-check"></i>
+                    <span>تسجيل دورة لأعضاء هيئة التدريس</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Apology.html">
+                    <i class="fa fa-user-times"></i>
+                    <span>الاعتذار عن دورة</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="notAttending.html">
+                    <i class="fa fa-times"></i>
+                    <span>المعتذرون عن الحضور</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="attendees.html">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span>كشف الحضور</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Approval.html">
+                      <i class="fa fa-retweet"></i>
+                      <span>الموافقة على الدورات التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courseStatus.html">
+                      <i class="fa fa-pause"></i>
+                      <span>حالة الطلبات</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Evaluation.html">
+                      <i class="fa fa-file-text-o"></i>
+                      <span>تقييم الدورة التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="evaluationBySupervisor.html">
+                      <i class="fa fa-file-o"></i>
+                      <span>تقييم المنسق للدورة التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sort.html">
+                      <i class="fa fa-search"></i>
+                      <span>الفرز</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="substituteList.html">
+                      <i class="fa fa-bars"></i>
+                      <span>القوائم الاحتياطية</span>
+                    </a>
+                  </li>
+              </ul>
+        </div>
+    </div>
+      <!-- sidebar end -->
+      <div class="content-area">
+      <!-- header -->
+        <div class="header">
+          <i class="fa fa-exchange toggle-sidebar d-block d-sm-none" aria-hidden="true"></i>
+          <a href="">
+            <img src="../img/man.svg" alt="image">
+            <span>اسم المستخدم</span>
+          </a>
+          <div class="dropdown switch-languge">
+            <a class="btn btn-light  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">اللغة</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">عربي</a>
+              <a class="dropdown-item" href="#">إنجليزي</a>
+              
+            </div>
+          </div>
+        </div>
+      <!-- end header -->
+      <!--                main CONTENT                    -->
+          <div class="container">
+            <div class="main-content">
+              <div class="title-content">
+                <h3 class="text-center mt-4 font-weight-bold">تقييم الدورة التدريبية بواسطة المنسق</h3>
+              </div>
+              <div class="row">
+                <div class="body-content evaluationBySupervisor">
+                  <form action="">
+                    <div class="">
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                          <label for="nameOfTeacher">اسم المدرب</label>
+                          <input type="text" class="form-control" id="nameOfTeacher" placeholder="">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="nameOfOrganization">اسم منسق الجهة</label>
+                          <input type="text" class="form-control" id="nameOfOrganization" placeholder="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="course">
+                      <h3 class="main-title">المادة التدريبية</h3>
+                      <div class="form-group row hover">
+                        <div class="col-md-3">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="1" id="hide1" value="option1">
+                            <label class="form-check-label" for="show">مطابقة للقالب التدريبي</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="1" id="hide2" value="option2">
+                            <label class="form-check-label" for="show">مطابقة جزئياً للقالب التدريبي</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="1" id="hide3" value="option3">
+                            <label class="form-check-label" for="show">غير مطابقة للقالب التدريبي</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="1" id="show1" value="option4">
+                            <label class="form-check-label" for="hide">غير مناسبة</label>
+                          </div>
+                        </div>
+                     </div>
+                     <div class="row reasonCourse p-2" style="display: none;">
+                      <div class="col-sm">
+                        <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="programTime">
+                    <h3 class="main-title">البرنامج الزمني</h3>
+                    <div class="form-group row hover">
+                      <div class="col-md-4">
+                        <label class="font-weight-bold">توزيع البرنامج الزمني للبرنامج التدريبي كان</label>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="2" id="hide21" value="option1">
+                          <label class="form-check-label" for="show">مناسباً</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="2" id="show21" value="option2">
+                          <label class="form-check-label" for="show">لم يكن مناسباً</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row reasonProgramTime p-2" style="display: none;">
+                      <div class="col-sm">
+                        <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group row hover">
+                      <div class="col-md-3">
+                        <label class="font-weight-bold">البرنامج الزمني يحتاج إلى</label>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="3" id="hide31" value="option1">
+                          <label class="form-check-label" for="show">زيادة</label>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="3" id="hide32" value="option2">
+                          <label class="form-check-label" for="show">تقليص</label>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="3" id="show31" value="option3">
+                          <label class="form-check-label" for="show">غير ذلك</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row reasonNeed p-2" style="display: none;">
+                      <div class="col-sm">
+                        <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group row hover">
+                      <div class="col-md-4">
+                        <label class="font-weight-bold">بدأالبرنامج التدريبي</label>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="4" id="hide41" value="option1">
+                          <label class="form-check-label" for="show">في موعده المحدد</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="4" id="show41" value="option2">
+                          <label class="form-check-label" for="show">لم يبدأ في الموعد المحدد</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row reasonStart p-2" style="display: none;">
+                      <div class="col-sm">
+                        <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group row hover">
+                      <div class="col-md-4">
+                        <label class="font-weight-bold">بدأت الجلسات التدريبية</label>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="5" id="hide51" value="option1">
+                          <label class="form-check-label" for="show">في موعدها المحدد</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check text-center">
+                          <input class="form-check-input" type="radio" name="5" id="show51" value="option2">
+                          <label class="form-check-label" for="show">لم تبدأ في الموعد المحدد</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row reasonSession p-2" style="display: none;">
+                      <div class="col-sm">
+                        <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="students">
+                      <h3 class="main-title">المتدربين و تفاعلهم</h3>
+                      <div class="form-group row hover">
+                        <div class="col-md-4">
+                          <label class="font-weight-bold">البرنامج المقدم للمتدربين</label>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="6" id="hide61" value="option1">
+                            <label class="form-check-label" for="show">مناسباً</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="6" id="show61" value="option2">
+                            <label class="form-check-label" for="show">لم يكن مناسباً</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row reasonProgramStudents p-2" style="display: none;">
+                        <div class="col-sm">
+                          <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row hover">
+                        <div class="col-md-4">
+                          <label class="font-weight-bold">المتدربين كانوا</label>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="7" id="hide71" value="option1">
+                            <label class="form-check-label" for="show">متفاعلين</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="7" id="show71" value="option2">
+                            <label class="form-check-label" for="show">غير متفاعلين</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row reasoninteraction p-2" style="display: none;">
+                        <div class="col-sm">
+                          <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row hover">
+                        <div class="col-md-4">
+                          <label class="font-weight-bold">أداء المتدربين كان</label>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="8" id="hide81" value="option1">
+                            <label class="form-check-label" for="show">جيداً</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-check text-center">
+                            <input class="form-check-input" type="radio" name="8" id="show81" value="option2">
+                            <label class="form-check-label" for="show">لم يكن جيداً</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row reasonPerformance p-2" style="display: none;">
+                        <div class="col-sm">
+                          <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="system">
+                        <h3 class="main-title">التنظيم و بيئة التدريب</h3>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">التنظيم كان</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="9" id="hide91" value="option1">
+                              <label class="form-check-label" for="show">مناسباً</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="9" id="show91" value="option2">
+                              <label class="form-check-label" for="show">لم يكن مناسباً</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonSort p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">بيئة التدريب هل هي</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="10" id="hide101" value="option1">
+                              <label class="form-check-label" for="show">مناسبة</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="10" id="show101" value="option2">
+                              <label class="form-check-label" for="show">غير مناسبة</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonEnvironment p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">وقت الاستراحة</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="11" id="hide111" value="option1">
+                              <label class="form-check-label" for="show">مناسب</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="11" id="show111" value="option2">
+                              <label class="form-check-label" for="show">لم يكن مناسب</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonBreak" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">المنسق كان</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="12" id="hide121" value="option1">
+                              <label class="form-check-label" for="show">قائماً بواجبه</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="12" id="show121" value="option2">
+                              <label class="form-check-label" for="show">لم يقم بواجبه</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonSupervisor p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="teacher">
+                        <h3 class="main-title">المدرب</h3>
+                        <div class="form-group row hover">
+                          <div class="col-md-3">
+                            <label class="font-weight-bold">تمكن المدرب من البرنامج التدريبي</label>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="13" id="hide131" value="option1">
+                              <label class="form-check-label" for="show">متمكن من البرنامج التدريبي</label>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="13" id="show131" value="option2">
+                              <label class="form-check-label" for="show">متمكن من البرنامج نوعاً ما</label>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="13" id="show131" value="option3">
+                              <label class="form-check-label" for="show">غير متمكن من البرنامج التدريبي</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">تفاعل المدرب في البرنامج التدريبي</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="14" id="hide141" value="option1">
+                              <label class="form-check-label" for="show">تفاعل إيجابي و نشيط</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="14" id="show141" value="option2">
+                              <label class="form-check-label" for="show">لم يكن تفاعله إيجابي و نشيط</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="evaluation">
+                        <h3 class="main-title">التقييم العام للبرنامج</h3>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">البرنامج بشكل عام</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="15" id="hide151" value="option1">
+                              <label class="form-check-label" for="show">كان مفيداً و حقق الهدف منه</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="15" id="show151" value="option2">
+                              <label class="form-check-label" for="show">لم يكن مفيداً و لم يحقق الهدف منه</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonGeneral p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="recommendation">
+                        <h3 class="main-title">التوصية</h3>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">هل توصي بتكرار المدرب ؟</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="16" id="hide161" value="option1">
+                              <label class="form-check-label" for="show">نعم</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="16" id="show161" value="option2">
+                              <label class="form-check-label" for="show">لا</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonRepeat p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">هل توصي بتكرار البرنامج ؟</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="17" id="hide171" value="option1">
+                              <label class="form-check-label" for="show">نعم</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="17" id="show171" value="option2">
+                              <label class="form-check-label" for="show">لا</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonRepeatProgram p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row hover">
+                          <div class="col-md-4">
+                            <label class="font-weight-bold">هل توصي بتكرار التعامل مع جهة التدريب ؟</label>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="18" id="hide181" value="option1">
+                              <label class="form-check-label" for="show">نعم</label>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-check text-center">
+                              <input class="form-check-input" type="radio" name="18" id="show181" value="option2">
+                              <label class="form-check-label" for="show">لا</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row reasonRepeatSchool p-2" style="display: none;">
+                          <div class="col-sm">
+                            <textarea class="form-control" id="subjectOfCourse" rows="4" placeholder="ادخل الاسباب"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="text-center mb-3">
+                      <input class="btn btn-secondary" type="submit" value="حفظ">
+                    </div>                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--               END main CONTENT                    -->
+      </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="../css/font-awesome.min.css" rel="stylesheet" >
+    <link href="../css/bootstrap.css" rel="stylesheet" >
+    <link href="../css/font.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/sidebar.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <title>تقييم البرنامج</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-logo">
+            <a href="../homePage.html">
+              <img src="../img/logo-ar.png" alt="">
+            </a>
+          </div>
+          <div class="sidebar-content">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="courses.html">
+                    <i class="fa fa-book"></i>
+                    <span>جميع الدورات</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="allCourses.html">
+                    <i class="fa fa-book"></i>
+                    <span>الدورات الحالية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="addGroups.html">
+                    <i class="fa fa-book"></i>
+                    <span>اضافة مجموعة</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="groups.html">
+                    <i class="fa fa-book"></i>
+                    <span>المجموعات</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="courseRequest.html">
+                    <i class="fa fa-plus"></i>
+                    <span>طلب دورة فردية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="courseRequestSingle.html">
+                    <i class="fa fa-plus"></i>
+                    <span>طلبات الدورات الفردية</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="newCourseFaculty.html">
+                    <i class="fa fa-check"></i>
+                    <span>تسجيل دورة لأعضاء هيئة التدريس</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Apology.html">
+                    <i class="fa fa-user-times"></i>
+                    <span>الاعتذار عن دورة</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="notAttending.html">
+                    <i class="fa fa-times"></i>
+                    <span>المعتذرون عن الحضور</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="attendees.html">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span>كشف الحضور</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Approval.html">
+                      <i class="fa fa-retweet"></i>
+                      <span>الموافقة على الدورات التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courseStatus.html">
+                      <i class="fa fa-pause"></i>
+                      <span>حالة الطلبات</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Evaluation.html">
+                      <i class="fa fa-file-text-o"></i>
+                      <span>تقييم الدورة التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="evaluationBySupervisor.html">
+                      <i class="fa fa-file-o"></i>
+                      <span>تقييم المنسق للدورة التدريبية</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sort.html">
+                      <i class="fa fa-search"></i>
+                      <span>الفرز</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="substituteList.html">
+                      <i class="fa fa-bars"></i>
+                      <span>القوائم الاحتياطية</span>
+                    </a>
+                  </li>
+              </ul>
+        </div>
+    </div>
+      <!-- sidebar end -->
+      <div class="content-area">
+      <!-- header -->
+        <div class="header">
+          <i class="fa fa-exchange toggle-sidebar d-block d-sm-none" aria-hidden="true"></i>
+          <a href="">
+            <img src="../img/man.svg" alt="image">
+            <span>اسم المستخدم</span>
+          </a>
+          <div class="dropdown switch-languge">
+            <a class="btn btn-light  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">اللغة</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">عربي</a>
+              <a class="dropdown-item" href="#">إنجليزي</a>
+              
+            </div>
+          </div>
+        </div>
+      <!-- end header -->
+      <!--                main CONTENT                    -->
+          <div class="container">
+            <div class="main-content">
+              <div class="title-content">
+                <h3 class="text-center mt-4 font-weight-bold">تقييم البرنامج</h3>
+              </div>
+              <div class="row">
+                <div class="col-md-4 mt-4">
+                  <select class="custom-select">
+                    <option selected="">اختر الدورة</option>
+                    <option value="1">مهارات الاتصال</option>
+                    <option value="2">اللغة العربية</option>
+                    <option value="3">التواصل الاجتماعي</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="body-content">
+                  <form action="">
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <tr>
+                        <th rowspan="2" class="align-middle text-center">العبارة</th>
+                        <th colspan="6" class="text-center">درجة الموافقة</th>
+                      </tr>
+                      <tr>
+                        <th>أوافق بشدة</th>
+                        <th>أوافق</th>
+                        <th>متوسطة</th>
+                        <th>لا أوافق</th>
+                        <th>لا أوافق</th>
+                        <th>لا ينطبق</th>
+                      </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور الأول :البرنامج التدريبي</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >موضوعات البرنامج تلبي احتياجي التدريبي</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="1" id="exampleRadios1" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>الأمثلة و التمارين و التطبيقات و الحالات العلمية في البرنامج متنوعة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="2" id="exampleRadios2" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>التمارين و تطبيقات البرنامج كافية</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="3" id="exampleRadios3" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>اكتسبت معارف جديدة من البرنامج التدريبي تساعدني في أداء مهامي الوظيفية</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="4" id="exampleRadios4" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>اكتسبت مهارات جديدة من البرنامج التدريبي تساعدني في أداء مهامي الوظيفية</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="5" id="exampleRadios5" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور الثاني : الحقيبة التدريبية</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >حقيبة البرنامج التدريبي تغطي موضوعاته</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="6" id="exampleRadios6" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تتسم المادة العلمية في الحقيبة التدريبية بالحداثة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="7" id="exampleRadios7" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تم اعداد المادة العلمية في الحقيبة بلغة سهلة و مفهومة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="8" id="exampleRadios8" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تم اعداد المادة العلمية في الحقيبة بصورة جذابة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="9" id="exampleRadios9" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تم توزيع البرنامج التدريبي على الجدول الزمني المرفق بالحقيبة بشكل ملائم</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="10" id="exampleRadios10" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور الثالث : البيئة التدريبية</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >عدد المتدربين في البرنامج التدريبي مناسب تماماً لعملية الفهم و الاستيعاب</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="11" id="exampleRadios11" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >القاعة التدريبية مناسبة تماماً لموضوع البرنامج التدريبي</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="12" id="exampleRadios12" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >المقاعد داخل القاعة التدريبية مريحة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="13" id="exampleRadios13" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تقنيات التدريب (أجهزة العرض) داخل القاعات التدريبية مناسبة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="14" id="exampleRadios14" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >الاضاءة و التكييف داخل القاعة التدريبية مناسبة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="15" id="exampleRadios15" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >بشكل عام الخدمات المساندة (استراحة الإفطار ، المواقف ، المصليات ، خدمات الانترنت ... الخ) مناسبة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="16" id="exampleRadios16" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >الارشادات و التوجيهات الخاصة بوصول المتدربين للقاعة التدريبية واضحة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="17" id="exampleRadios17" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور الرابع : الحاسب الالي</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >تعمل أجهزة الحاسب الالي المستخدمة في التدريب العلمي بشكل جيد</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="18" id="exampleRadios18" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >برامج الحاسب الالي المستخدمة في التدريب حديثة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="19" id="exampleRadios19" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور الخامس : مدة البرنامج</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >مدة البرنامج التدريبي مناسبة</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="20" id="exampleRadios20" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور السادس : المدرب</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >تمكن المدرب من عرض و إيصال البرنامج التدريبي بشكل مناسب</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="21" id="exampleRadios21" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >حرص المدرب على تحفيز المتدربين على المشاركة و النقاش</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="22" id="exampleRadios22" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >تقبل المدرب أسئلة و استفسارات المتدربين و أجاب عليها</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="23" id="exampleRadios23" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >التزم المدرب بمحتويات الحقيبة التدريبية</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="24" id="exampleRadios24" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >التزم المدرب بمواعيد جلسات البرنامج التدريبي</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="25" id="exampleRadios25" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >ركز المدرب على أمثلة و تطبيقات و حالات علمية قريبة من الواقع العلمي</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="26" id="exampleRadios26" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >استخدم المدرب أساليب تدريبية متنوعة (محاضرات ، مجموعات ، ...الخ)</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="27" id="exampleRadios27" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tbody>
+                          <tr class="no-hover">
+                          <td colspan="8">المحور السابع : منسق البرنامج من الجهة المنفذة للبرنامج التدريبي</td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                          <td >حسن استقبال المتدربين</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="28" id="exampleRadios28" value="option6"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td >المهارة في التعامل مع المتدربين</td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option1"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option2"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option3"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option4"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option5"></div>
+                          </td>
+                          <td><div class="form-check text-center"><input class="form-check-input" type="radio" name="29" id="exampleRadios29" value="option6"></div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="quastion">
+                      <div class="title-quastion">أسئلة مفتوحة</div>
+                      <div class="col">
+                        <div class="form-group mt-3">
+                          <label for="Textarea1">ماهي أبرز ايجابيات البرنامج التدريبي ؟</label>
+                          <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group mt-3">
+                          <label for="Textarea2">ماهي الأمور التي تحتاج إلى تطوير في البرنامج التدريبي ؟</label>
+                          <textarea class="form-control" id="Textarea2" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group mt-3">
+                          <label for="Textarea3">ماهي أبرز ايجابيات البرنامج التدريبي ؟</label>
+                          <textarea class="form-control" id="Textarea3" rows="3"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mb-3">
+                      <input class="btn btn-secondary" type="submit" value="إرسال">
+                    </div>                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--               END main CONTENT                    -->
+      </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+  </body>
+</html>

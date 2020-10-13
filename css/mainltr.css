@@ -1,0 +1,11 @@
+* {
+    direction: ltr;
+    text-align: left;
+  }
+  .body-content .form-check .form-check-label {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  
+  

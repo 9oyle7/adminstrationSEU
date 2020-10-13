@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.introdution{
+  background: url(../img/2.jpg) no-repeat center center;
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.introdution .overlay {
+  background: rgba(6, 12, 34, 0.8);
+    background: rgb(1,24,42);
+    background: radial-gradient(circle, rgba(1,24,42,0.55) 0%, rgba(1,24,42,0.8) 54%, rgba(1,24,42,1) 99%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.introdution .top-page {
+  color: #ffffff;
+  background: #01182a;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.introdution .top-page .right {
+ text-align: right;
+ line-height: 2.5;
+}
+.introdution .top-page .left {
+  text-align: left;
+  line-height: 2.5;
+}
+.introdution .top-page .username .dropdown-menu {
+  padding: 0;
+}
+.introdution .top-page .username .dropdown-item {
+  text-align: center;
+  color: #de8204;
+}
+.introdution .top-page .username .dropdown-item:hover {
+  text-align: center;
+  color: #de8204;
+  border-radius: 5px;
+}
+.introdution .top-page .username a {
+  color: #fff;
+}
+.introdution .top-page .username a:focus {
+  box-shadow: 0 0 0 0;
+}
+.introdution .top-page .username a:hover{
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+.introdution .top-page .switch-languge .dropdown-item {
+    text-align: center;
+}
+.introdution .content {
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introdution .content  a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.introdution .content a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.introdution .content h3 {
+  border: 2px solid #de8204;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 35px;
+}
+.introdution .content h3:hover {
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+}
+body {
+  font-family: 'Droid Arabic Kufi' , serif;
+  font-size: 14px;
+  text-align: right;
+}
+.page {
+  min-height: 100vh;
+}
+.main-content {
+  padding: 25px;
+}
+.main-content .title-content h3 {
+  color: #242069;
+}
+.body-content {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #ffffff;
+}
+.body-content.faculity,.employee {
+  padding: 20px;
+  border-top: 2px solid #de8204;
+}
+
+/*
+      setings of newCourse facility
+*/
+.body-content .form-check .form-check-label {
+  margin-right: 20px;
+}
+.body-content .btn-secondary {
+  background-color: #ee8a00;
+  border-color: #ee8a00;
+}
+.body-content .btn-secondary:hover {
+  background-color: #de8204;
+  border-color: #de8204;
+}
+.body-content .form-group label {
+  font-weight: bold;
+}
+/*
+     end setings of newCourse facility
+*/
+/*
+      setings of table in Evaluation
+*/
+.body-content .table {
+  margin-bottom: 0;
+}
+.body-content .table th {
+    vertical-align: bottom;
+    border-bottom: none;
+    border-top: none;
+    background-color: #242069;
+  text-align: center;
+    color: #ffffff;
+}
+
+.body-content .table td {  
+  text-align: center;
+}
+.table-hover tbody tr.no-hover {
+  background-color: #00000013;
+  font-weight: bold;
+}
+.table-hover tbody tr.no-hover:hover {
+    background-color: none;
+}
+.body-content .title-quastion {
+  text-align: center;
+  background-color: #00000013;
+  padding: 0.75rem;
+  border-top: 2px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+}
+.body-content .quastion .form-group label {
+  font-weight: 100;
+}
+/*
+    end  setings of table in Evaluation
+*/
+/*
+      setings of all Courses page
+*/
+.body-content .table .form-group .form-check {
+  text-align: center;
+  margin-top: 6px;
+}
+.body-content .table td.table-content {  
+  min-width: 170px;
+  text-align: center;
+  vertical-align: middle;
+}
+/*
+     end setings of all Courses page
+*/
+/*
+      setings of approval page
+*/
+.body-content .table td.table-content.approval {  
+  min-width: 170px;
+  text-align: center;
+  
+}
+.body-content .table td.table-content.approval .form-check.option {
+   display: inline-block; 
+}
+/*
+     end setings of approval page
+*/
+/*
+      setings of course Status page
+*/
+
+/*
+     end setings of course Status page
+*/
+/*
+      setings of attendees page
+*/
+.main-content select.custom-select  {
+  background-position-x: 0.75rem;
+  padding-left: 1.75rem;
+  padding-right: 0.75rem;
+}
+.body-content .table td.table-content.attendees {  
+  vertical-align: top;
+}
+/*
+      end setings of attendees page
+*/
+/*
+       setings of apology page
+*/
+.custom-file-label::after {
+    left: 0;
+    right: auto;
+    content: "رفع";
+    border-right: inherit;
+    border-left: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+/*
+      end setings of apology page
+*/
+/*
+       setings of notAttend page
+*/
+
+/*
+      end setings of notAttend page
+*/
+
+/*
+       setings of valuationBySupervisor page
+*/
+.body-content.evaluationBySupervisor {
+  padding-top: 20px;
+  border-top: 2px solid #de8204;
+}
+.body-content h3.main-title {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #242069;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+
+}
+.body-content .form-group.hover {
+  padding: 10px;
+}
+.body-content .form-group.hover:hover {
+  background-color: #f1f1f1;
+}
+
+.body-content .course .form-group label {
+  font-weight: normal;
+}
+.body-content .programTime .form-group label {
+  font-weight: normal;
+}
+.body-content .students .form-group label {
+  font-weight: normal;
+}
+.body-content .system .form-group label {
+  font-weight: normal;
+}
+.body-content .teacher .form-group label {
+  font-weight: normal;
+}
+.body-content .evaluation .form-group label {
+  font-weight: normal;
+}
+.body-content .recommendation .form-group label {
+  font-weight: normal;
+}
+/*
+      end setings of valuationBySupervisor page
+*/
+
+/*
+       setings of sort page
+*/
+.body-content table .table-content a.Procedure {
+  width: 71px;
+}
+/*
+      end setings of sort page
+*/
+/*
+       setings of groups page
+*/
+.body-content table .table-content a.groups {
+  width: 125px;
+}
+/*
+      end setings of groups page
+*/
+/*
+       setings of course request page
+*/
+.body-content .contentSupject {
+  padding: 25px;
+}
+/*
+       end setings of course request page
+*/
+/*
+      calender
+*/
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/*
+      calender
+*/
